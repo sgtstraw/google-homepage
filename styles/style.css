@@ -1,33 +1,46 @@
 #a {
 	text-decoration: none !important;
-	
+
 }
 
 #nav {
 	position: absolute;
-	top: 8px;
+	top: 4px;
 	right: 8px;
 }
-#nav ul {
+#nav ul{
+	display: inline;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	
+
 }
 #nav li {
+	padding: 20px 10px;
 	float: right;
-	
 }
 #nav li a:hover{
 	text-decoration: underline;
 }
-#nav a {
+#nav a{
+	font-size: 14px;
 	color: #333;
 	display: block;
-	padding: 24px 18px;
+
 	text-align: center;
-	text-decoration: none;	
+	text-decoration: none;
+}
+#sign {
+	font-weight: bold;
+	color: white !important;
+	background-color: #4285f4;
+	border: solid 0px #4285f4;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+#nav:first-child li{
+	padding: 1px 1px;
 }
 
 
@@ -48,15 +61,13 @@
 }
 
 #content {
-	float: middle;
-	margin: 0 200px;
-	padding: 200px 20px 20px;
+	margin-top: 200px;
 	text-align: center;
-	
+
 }
 
 #text_input {
-	
+
 	padding: 40px 40px 40px;
 	text-align: center;
 }
@@ -101,6 +112,7 @@
 
 #footer a {
 	text-decoration: none;
+	font-size: 14px;
 }
 
 #foot_left {
@@ -127,7 +139,7 @@
 h1 {
 	margin: 0;
 	padding: 10px;
-	
+
 }
 
 .class1 {
